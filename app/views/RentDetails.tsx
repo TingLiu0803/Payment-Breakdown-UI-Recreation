@@ -6,9 +6,8 @@ export const RentDetails: React.FC = () => {
   return (
     <div className="w-full max-w-xl xl:mx-4 md:mx-2 mt-10 bg-gray-100 rounded-3xl shadow-sm border border-gray-250 p-6 flex flex-col items-center z-20">
       <DollarCircle className="-mt-10"/>
-      <div className="flex items-center w-full text-gray-500 font-medium mt-4">
-        <DetailRow label="Asked Rent" labelTwo="$ 39,000" />
-        <InformationCircle className="mb-4 ml-2"/>
+      <div className="w-full text-gray-500 font-medium mt-4 px-6">
+        <DetailRow label="Asked Rent" labelTwo="$ 39,000" isInfoIcon={true}/>
       </div>
       <div className="w-full bg-gray-50 rounded-xl shadow-sm border-2 border-gray-200 p-6 mt-4">
         <div className="text-gray-500 font-medium">
