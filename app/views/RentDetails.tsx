@@ -30,7 +30,7 @@ export const RentDetails: React.FC = () => {
             </div>
             <DetailRow label="Utility Bill" labelTwo="$ 9,000" isInfoIcon={true} />
             <DetailRow label="Taxes" labelTwo="$ 3,000" />
-            <div className="border-t border-dashed border-gray-300 w-full mt-8"></div>
+            <div className="border-dashed border-t-2 border-gray-300 w-full mt-8"></div>
             <div className="flex justify-between mt-8">
               <span className="md:block hidden">Expected monthly expense</span>
               <span className="md:hidden block">Expected expense</span>
