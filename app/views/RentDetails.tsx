@@ -4,7 +4,7 @@ import { InformationCircle } from "./InformationCircle";
 
 export const RentDetails: React.FC = () => {
   return (
-    <div className="w-full max-w-xl xl:mx-4 md:mx-2 mt-10 bg-gray-100 rounded-3xl shadow-sm border border-gray-250 p-6 flex flex-col items-center">
+    <div className="w-full max-w-xl xl:mx-4 md:mx-2 mt-10 bg-gray-100 rounded-3xl shadow-sm border border-gray-250 p-6 flex flex-col items-center z-20">
       <DollarCircle className="-mt-10"/>
       <div className="flex items-center w-full text-gray-500 font-medium mt-4">
         <DetailRow label="Asked Rent" labelTwo="$ 39,000" />
@@ -35,7 +35,7 @@ export const RentDetails: React.FC = () => {
               <span className="md:block hidden">Expected monthly expense</span>
               <span className="md:hidden block">Expected expense</span>
                 <span className="text-gray-800 font-bold">
-                  <span className="text-gray-500">
+                  <span className="text-gray-500 text-xl">
                     $
                   </span>
                     {` --`}
